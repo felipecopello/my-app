@@ -77,7 +77,14 @@ import 'bootstrap/dist/css/bootstrap.css' /* importo los estilos bootstrap ya in
 // --------------------------------------------------------
 // ----------------------- CLASE 3 ------------------------
 import Welcome from "./components/Welcome";
-import Exercises from "./pages/Exercises";
+// import Exercises from "./pages/Exercises";
+import App from './components/App'
 
 const container = document.getElementById('root')
-reactDom.render( <Exercises/> ,container);  /* ya no llamamos de a un componente a la vez, sino a la pagina */
+// reactDom.render( <Exercises/> ,container);  /* ya no llamamos de a un componente a la vez, sino a la pagina */
+
+// --------------------------------------------------------
+// ----------------------- CLASE  ------------------------
+// trabajamos con react routers para injectar contenido de forma dinamica. hay que crear un componente e importarlo. en este caso uso eñl componente App
+
+reactDom.render( <App/> ,container); /* paso a renderear el componente app */
