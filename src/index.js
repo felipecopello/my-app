@@ -78,7 +78,7 @@ import 'bootstrap/dist/css/bootstrap.css' /* importo los estilos bootstrap ya in
 // ----------------------- CLASE 3 ------------------------
 import Welcome from "./components/Welcome";
 // import Exercises from "./pages/Exercises";
-import App from './components/App'
+import App from './components/App.js'
 
 const container = document.getElementById('root')
 // reactDom.render( <Exercises/> ,container);  /* ya no llamamos de a un componente a la vez, sino a la pagina */
