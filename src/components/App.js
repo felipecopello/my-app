@@ -6,21 +6,36 @@ import ExerciseNew from "../pages/ExerciseNew"; /* ahora la pagina va a ser rend
 import NotFound from "../pages/NotFound"
 
 
-function App(){
-    return (
-        <Router>
+const App = () =>(
+    <Router>
             
-                <Routes>
-                <Route exact path='/exercises' element={<Exercises/> } /> {/* el componente route importado va a recibir props, una ruta a buscar y un componente para buscar, le paso el componente que va a renderar. EL PATH ES EL HTTP. */}
-        
-                <Route exact path='/exercise/new' element={<ExerciseNew/> } /> {/* se le pasa la nueva pagina que queremos que agregue */}
-        
-                <Route path='*' element={<NotFound/> } />
-                </Routes>
+        <Routes>
+        <Route exact path='/exercises' element={<Exercises/> } /> {/* el componente route importado va a recibir props, una ruta a buscar y un componente para buscar, le paso el componente que va a renderar. EL PATH ES EL HTTP. */}
+
+        <Route exact path='/exercise/new' element={<ExerciseNew/> } /> {/* se le pasa la nueva pagina que queremos que agregue */}
+
+        <Route path='*' element={<NotFound/> } />
+        </Routes>
            
            
-        </Router>
-    )
-}
+    </Router>
+)
+
+// function App(){
+//     return (
+//         <Router>
+            
+//                 <Routes>
+//                 <Route exact path='/exercises' element={<Exercises/> } /> {/* el componente route importado va a recibir props, una ruta a buscar y un componente para buscar, le paso el componente que va a renderar. EL PATH ES EL HTTP. */}
+        
+//                 <Route exact path='/exercise/new' element={<ExerciseNew/> } /> {/* se le pasa la nueva pagina que queremos que agregue */}
+        
+//                 <Route path='*' element={<NotFound/> } />
+//                 </Routes>
+           
+           
+//         </Router>
+//     )
+// }
 
 export default App

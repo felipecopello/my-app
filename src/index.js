@@ -59,7 +59,7 @@ import reactDom from "react-dom";
 // --------------------------------------------------------
 // ----------------------- CLASE 2 ------------------------
 
-import Card from './components/Card' /* tengo que importar el componente para poder usarlo */
+// import Card from './components/Card' /* tengo que importar el componente para poder usarlo */
 import 'bootstrap/dist/css/bootstrap.css' /* importo los estilos bootstrap ya instalados en mis dependencias por consola */
 
 
@@ -76,7 +76,7 @@ import 'bootstrap/dist/css/bootstrap.css' /* importo los estilos bootstrap ya in
 
 // --------------------------------------------------------
 // ----------------------- CLASE 3 ------------------------
-import Welcome from "./components/Welcome";
+// import Welcome from "./components/Welcome";
 // import Exercises from "./pages/Exercises";
 import App from './components/App.js'
 

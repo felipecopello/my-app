@@ -5,9 +5,9 @@ import Add from "../components/Add";
 
 
 class Exercises extends React.Component {
-    constructor(props){
+   /*  constructor(props){ BABEL SE ENCARGA DE HACER ESTO POR MI, con los propery inicializers
         super(props)
-        this.state= {
+        this. */state= {
             data: [{
                   "id": 1,
                   "title": "Technique Guides",
@@ -33,7 +33,7 @@ class Exercises extends React.Component {
                   "rightColor": "#F76B1C"
                 }]
             }
-    }
+    // }
         /* voy a iterar desde un json la informacion que quiero poner en las 3 cards, primero le defino un state */
         
     render(){

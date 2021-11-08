@@ -1,5 +1,5 @@
 import React from "react"
-import exerciseImg from '../images/6328544.png' /* tengo que importar la imagen elegida, sacada de ICON FINDER */
+// import exerciseImg from '../images/6328544.png' /* tengo que importar la imagen elegida, sacada de ICON FINDER */
 import fondo from '../images/circles.png' /* para poder reutilizar el componente, le pongo la propiedad y no la imagen de fondo directamente en el estilo */
 import './styles/Card.css' /* importo los estilos */
 
